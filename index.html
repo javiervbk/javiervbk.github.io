@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javier - Portafolio Tetris</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="tetris-container">
+        <div class="game-board">
+            <header class="tetris-header">
+                <h1 class="tetris-title">Mi Portafolio</h1>
+                <div class="score-board">
+                    <span class="level">LEVEL: DEVELOPER</span>
+                    <span class="score">LINES: ∞</span>
+                </div>
+            </header>
+
+            <!-- About Section - Tetris Block -->
+            <div class="tetris-section about-block" data-block-type="I">
+                <h2>Sobre Mí</h2>
+                <p>¡Hola! Soy Javier, creo Software.</p>
+            </div>
+
+            <!-- Projects Section - Multiple Tetris Blocks -->
+            <div class="tetris-section projects-container">
+                <h2>Proyectos Destacados</h2>
+                <div class="tetris-grid">
+                    <!-- Project 1 - L Block -->
+                    <div class="project-block tetris-block L-block" data-block-type="L">
+                        <h3>INAH - Sistema de Control de Bienes</h3>
+                        <div class="project-preview">
+                            <div class="project-image"></div>
+                            <a href="#" class="tetris-link">Ver más</a>
+                        </div>
+                    </div>
+
+                    <!-- Project 2 - T Block -->
+                    <div class="project-block tetris-block T-block" data-block-type="T">
+                        <h3>INAH - Inventario Palacio Nacional</h3>
+                        <div class="project-preview">
+                            <div class="project-image"></div>
+                            <a href="#" class="tetris-link">Ver más</a>
+                        </div>
+                    </div>
+
+                    <!-- Project 3 - S Block -->
+                    <div class="project-block tetris-block S-block" data-block-type="S">
+                        <h3>INAH - Plataforma de Museos</h3>
+                        <div class="project-preview">
+                            <div class="project-image"></div>
+                            <a href="#" class="tetris-link">Ver más</a>
+                        </div>
+                    </div>
+
+                    <!-- Project 4 - Z Block -->
+                    <div class="project-block tetris-block Z-block" data-block-type="Z">
+                        <h3>UNAM - Sistema de Concursos</h3>
+                        <div class="project-preview">
+                            <div class="project-image"></div>
+                            <a href="#" class="tetris-link">Ver más</a>
+                        </div>
+                    </div>
+
+                    <!-- Project 5 - O Block -->
+                    <div class="project-block tetris-block O-block" data-block-type="O">
+                        <h3>UNAM - Gestión de Salas</h3>
+                        <div class="project-preview">
+                            <div class="project-image"></div>
+                            <a href="#" class="tetris-link">Ver más</a>
+                        </div>
+                    </div>
+
+                    <!-- Project 6 - J Block -->
+                    <div class="project-block tetris-block J-block" data-block-type="J">
+                        <h3>UNAM - Informes Anuales</h3>
+                        <div class="project-preview">
+                            <div class="project-image"></div>
+                            <a href="#" class="tetris-link">Ver más</a>
+                        </div>
+                    </div>
+
+                    <!-- Project 7 - I Block -->
+                    <div class="project-block tetris-block I-block" data-block-type="I">
+                        <h3>CNAS - Bienes Eclesiásticos</h3>
+                        <div class="project-preview">
+                            <div class="project-image"></div>
+                            <a href="#" class="tetris-link">Ver más</a>
+                        </div>
+                    </div>
+
+                    <!-- Project 8 - L Block -->
+                    <div class="project-block tetris-block L-block" data-block-type="L">
+                        <h3>Compañía de Jesús - Repositorio</h3>
+                        <div class="project-preview">
+                            <div class="project-image"></div>
+                            <a href="#" class="tetris-link">Ver más</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Skills Section - Tetris Block -->
+            <div class="tetris-section skills-block" data-block-type="T">
+                <h2>Habilidades</h2>
+                <div class="skills-grid">
+                    <div class="skill-block">Arqueología</div>
+                    <div class="skill-block">Desarrollo de Software</div>
+                    <div class="skill-block">Baile de Tango</div>
+                </div>
+            </div>
+
+            <!-- Contact Section - Tetris Block -->
+            <div class="tetris-section contact-block" data-block-type="O">
+                <h2>Contacto</h2>
+                <p>¡Me encantaría conectar contigo! Puedes encontrarme en:</p>
+                <div class="contact-links">
+                    <a href="https://github.com/javiervbk" class="tetris-link">GitHub</a>
+                    <a href="https://www.linkedin.com/in/javiervbk" class="tetris-link">LinkedIn</a>
+                    <a href="mailto:javiervbk@gmail.com" class="tetris-link">Email</a>
+                </div>
+            </div>
+
+            <div class="game-over-message" style="display: none;">
+                <h2>PORTFOLIO COMPLETE!</h2>
+                <p>Thanks for visiting</p>
+            </div>
+        </div>
+
+        <!-- Next Block Preview (Side Panel) -->
+        <div class="next-block-panel">
+            <h3>NEXT</h3>
+            <div class="next-block">
+                <div class="mini-block"></div>
+            </div>
+            <div class="stats">
+                <div class="stat-item">
+                    <span>GITHUB</span>
+                    <span>javiervbk</span>
+                </div>
+                <div class="stat-item">
+                    <span>SKILL</span>
+                    <span>SOFTWARE</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
